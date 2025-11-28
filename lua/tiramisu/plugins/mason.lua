@@ -16,8 +16,6 @@ return {
       require("mason-lspconfig").setup({
         ensure_installed = {
           "lua_ls",
-          "autotools_ls", -- make
-          "bashls",
           "docker_language_server"
         }
       })
